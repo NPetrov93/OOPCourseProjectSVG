@@ -1,18 +1,22 @@
-﻿Build started 8/30/2017 5:19:08 PM.
-     1>Project "c:\Users\Nikolay\documents\visual studio 2013\Projects\SVGproject\SVGproject\SVGproject.vcxproj" on node 2 (Build target(s)).
+﻿Build started 8/31/2017 4:11:57 AM.
+     1>Project "F:\Education\FMI\2nd Semester\OOP\SVG project\OOPCourseProjectSVG\SVGproject\SVGproject.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SVGproject.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt line.cpp
-         line.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SVGproject.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SVGproject.cpp
+         SVGproject.cpp
+     1>f:\education\fmi\2nd semester\oop\svg project\oopcourseprojectsvg\svgproject\svgproject.cpp(75): warning C4101: 'shape' : unreferenced local variable
+     1>f:\education\fmi\2nd semester\oop\svg project\oopcourseprojectsvg\svgproject\svgproject.cpp(198): warning C4018: '<' : signed/unsigned mismatch
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\nikolay\documents\visual studio 2013\Projects\SVGproject\Debug\SVGproject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\nikolay\documents\visual studio 2013\Projects\SVGproject\Debug\SVGproject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\nikolay\documents\visual studio 2013\Projects\SVGproject\Debug\SVGproject.lib" /MACHINE:X86 Debug\circle.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Education\FMI\2nd Semester\OOP\SVG project\OOPCourseProjectSVG\Debug\SVGproject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Education\FMI\2nd Semester\OOP\SVG project\OOPCourseProjectSVG\Debug\SVGproject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Education\FMI\2nd Semester\OOP\SVG project\OOPCourseProjectSVG\Debug\SVGproject.lib" /MACHINE:X86 Debug\circle.obj
          Debug\line.obj
          Debug\rectangle.obj
          Debug\shape.obj
          Debug\stdafx.obj
          Debug\SVGproject.obj
-         SVGproject.vcxproj -> c:\users\nikolay\documents\visual studio 2013\Projects\SVGproject\Debug\SVGproject.exe
-     1>Done Building Project "c:\Users\Nikolay\documents\visual studio 2013\Projects\SVGproject\SVGproject\SVGproject.vcxproj" (Build target(s)).
+         Debug\svg_factory.obj
+         Debug\svg_serializable.obj
+         SVGproject.vcxproj -> F:\Education\FMI\2nd Semester\OOP\SVG project\OOPCourseProjectSVG\Debug\SVGproject.exe
+     1>Done Building Project "F:\Education\FMI\2nd Semester\OOP\SVG project\OOPCourseProjectSVG\SVGproject\SVGproject.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.75
+Time Elapsed 00:00:01.38

@@ -83,8 +83,11 @@
     <ClInclude Include="line.h" />
     <ClInclude Include="printable.h" />
     <ClInclude Include="rectangle.h" />
+    <ClInclude Include="serializable.h" />
     <ClInclude Include="shape.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="svg_factory.h" />
+    <ClInclude Include="svg_serializable.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +100,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="SVGproject.cpp" />
+    <ClCompile Include="svg_factory.cpp" />
+    <ClCompile Include="svg_serializable.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
